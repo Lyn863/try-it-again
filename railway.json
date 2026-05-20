@@ -1,0 +1,38 @@
+{
+  "name": "campus-personality-test",
+  "version": "1.0.0",
+  "description": "校园人格测试应用 - 基于五大人格维度的人格测试系统",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p $PORT -c-1",
+    "dev": "npx http-server -p 3000 -c-1",
+    "build": "echo \"This is a static site, no build step needed\"",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "personality-test",
+    "big-five",
+    "psychology",
+    "campus",
+    "educational",
+    "assessment",
+    "greek-mythology"
+  ],
+  "author": "Personality Test Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/personality-test.git"
+  },
+  "homepage": "https://personality-test.railway.app",
+  "bugs": {
+    "url": "https://github.com/yourusername/personality-test/issues"
+  }
+}
